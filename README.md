@@ -27,6 +27,7 @@ cd /var/www
 wget http://ftp.drupal.org/files/projects/drupal-7.36.zip
 unzip drupal-7.36.zip
 mv drupal-7.36 drupal
+cd drupal
 chmod -R 744 .
 chown -R www-data:www-data .
 
